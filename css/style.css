@@ -1,0 +1,90 @@
+/* General Styling */
+
+body{
+    margin: 0;
+}
+
+.section,
+footer{
+    padding: 0px 60px 0px 60px;
+}
+
+/* First Section Styling */
+
+.section.one{
+    background-color: #1F2937;
+    padding-top: 25px;
+}
+
+.top-one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+}
+
+.right-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.bottom-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0px 50px 0px;
+    gap: 50px;
+}
+
+h1{
+    font-size: 48px; 
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button-one{
+    background: #3882F6;
+    color: #F9FAF8;
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+
+}
+
+.wrapper-two{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.placeholder{
+    font-size: 18px;
+    color: #E5E7EB;
+    background: grey;
+    width: 550px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Second Section Styling */
