@@ -88,3 +88,40 @@ p{
 }
 
 /* Second Section Styling */
+
+h2{
+    text-align: center;
+}
+
+.section-two-content{
+    display: flex;
+    flex: 1;
+    gap: 15px;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0px 60px;
+    margin-bottom: 40px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-wrapper{
+    background: #3882F6;
+    border-radius: 10px;
+    width: 108px;
+    height: 108px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
