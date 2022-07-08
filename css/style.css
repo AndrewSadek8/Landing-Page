@@ -171,3 +171,31 @@ img{
 }
 
 /* Fourth Section Styling */
+
+.section.four{
+    background: #3882F6;
+    margin: 50px 150px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 30px 150px 30px 150px;
+}
+
+.cta h3, p{
+    margin: 0px;
+}
+
+.cta p{
+    color: #E5E7EB;
+}
+
+.button-two{
+    background: #3882F6;
+    border-radius: 10px;
+    color: white;
+    width: 120px;
+    border: 2px solid white;
+}
+
+/* Footer Section Styling */
