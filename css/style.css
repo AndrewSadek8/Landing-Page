@@ -55,7 +55,7 @@ h1{
     color: #F9FAF8;
 }
 
-p{
+.paragraphs{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -117,7 +117,7 @@ h2{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 108px;
+    width: 105px;
 }
 
 .image-wrapper{
@@ -140,3 +140,34 @@ img{
 .text{
     color: grey;
 }
+
+/* Third Section Styling */
+
+.quote-wrapper{
+    background: #E5E7EB;
+    padding: 50px 0px;
+}
+
+.section.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 36px;
+}
+
+.quote{
+    margin: 0px;
+    padding: 0px 280px;
+
+}
+
+.author{
+    display: flex;
+    align-self: flex-end;
+    padding-right: 290px;
+    font-size: 30px;
+}
+
+/* Fourth Section Styling */
