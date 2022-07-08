@@ -199,3 +199,12 @@ img{
 }
 
 /* Footer Section Styling */
+
+footer{
+    background: #1F2937;
+    color: #E5E7EB;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
